@@ -1,0 +1,122 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #500000; /* Texas A&M Maroon */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #500000; /* Maroon */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #FFFFFF; /* White */
+}
+
+header h1 {
+    margin-bottom: 10px;
+    color: #FFFFFF; /* White */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #FFFFFF; /* White */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #CCCCCC; /* Light Gray for hover effect */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content-section {
+    padding: 50px 0;
+    background-color: #333333; /* Dark Gray */
+}
+
+.content-section h2 {
+    color: #FFFFFF; /* White */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content-section p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.team-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.player {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+.player img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #FFFFFF; /* White border around images */
+}
+
+.player h3 {
+    margin-top: 10px;
+    color: #FFFFFF; /* White */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table thead {
+    background-color: #500000; /* Maroon */
+    color: #FFFFFF; /* White */
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #dddddd; /* Light Gray */
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #555555; /* Medium Gray */
+}
+
+footer {
+    background-color: #500000; /* Maroon */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    border-top: 3px solid #FFFFFF; /* White */
+}
+
+footer p {
+    color: #FFFFFF; /* White */
+}
